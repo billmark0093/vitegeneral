@@ -2,7 +2,7 @@
 const ContractAddress = require('./helpers/ContractAddress.js');
 const Formatters = require('./helpers/formatters.js');
 const Networks = require('./helpers/networks.js');
-const render = require('snore-log');
+const render = require('swing-log');
 
 const [a, b, c] = [ContractAddress, Formatters, Networks];
 render(a, b, c);
